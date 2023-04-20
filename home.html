@@ -15,6 +15,14 @@ gtag("event", "分享", {"platform":"Facebook",
          "title":"共學 GA",
          "value": 1});
 alert("感謝大大無私的分享");}
+  
+  function trackCTALine(){
+gtag("event", "分享", {"platform":"LINE",
+         "title":"共學 GA",
+         "value": 1});
+alert("感謝大大無私的分享Line");}
+  
+  
 </script>
 
   <title>Home Page</title>
@@ -22,7 +30,8 @@ alert("感謝大大無私的分享");}
 </head>
 <body>
   Hello Goole Analytics
-  <button onclick="trackCTA();">分享吧！</button>
+  <button onclick="trackCTA();">分享FB吧！</button>
+  <button onclick="trackCTALine();">分享LINE吧！</button>
 
 </body>
 </html>
